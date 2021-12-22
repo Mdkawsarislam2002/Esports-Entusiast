@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .menu__iteas {
+    @apply px-1 xl:lg:text-base text-xs italic font-bold  text-[#f3f3f3]  leading-[21px] tracking-normal text-left font-['segoe_UI'];
+  }
+}
+
+@layer components {
+  .highLight {
+    @apply font-black text-slate-50;
+  }
+}
+
+@layer components {
+  .main-div {
+    @apply ml-28 mt-12;
+  }
+}
+
+@layer components {
+  .p__Alignment {
+    @apply md:flex md:justify-center md:flex-col;
+  }
+}
